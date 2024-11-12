@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+/*Fontes*/
+h1{
+    font-family: "Geist Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size:45px;
+    color:#202020;
+}
+
+h2{
+    font-family: "Geist Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 60px;
+    color:#202020;
+}
+
+p{
+    font-family: "Geist Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    color:#202020; 
+    width: 80vw;
+}
+
+ul{
+    font-family: "Geist Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    color:#202020; 
+    width: 80vw;
+    list-style-type: none;
+}
+
+/*Header*/
+
+.custom-bg {
+    background-color: #202020;
+}
+
+.navbar-brand {
+    font-family: "Great Vibes", cursive;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    color: #66ff39;
+}
+
+.navbar-brand:hover {
+    color: #a6fd8c;
+    background-color: transparent;
+}
+
+/*Main*/
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+/*Botões*/
+.btn-custom{
+    background-color:#66ff39;
+    font-family: "Geist Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.btn-custom:hover{
+    background-color: #a6fd8c;
+}
+
+.btn-outline-primary {
+    color: #66ff39;
+    border-color: #66ff39; /
+  }
+
+  .btn-outline-primary {
+    color: #66ff39;
+    border-color: #66ff39;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #66ff39;
+    color: white;
+    border-color: #66ff39;
+  }
+  
+  .btn-outline-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(102, 255, 57, 0.5);
+    background-color: #66ff39;
+    color: white;
+    border-color: #66ff39;
+  }
+  
+  button{
+    margin-top: 1em;
+  }
+
+  table{
+    font-family: "Geist Mono", monospace;
+    border-collapse:separate;
+    border:solid black 1px;
+    border-radius:6px;
+  }
+
+  .button-container {
+    display: flex;
+  }
